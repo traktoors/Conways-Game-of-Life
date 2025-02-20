@@ -6,10 +6,13 @@ Conway's Game of Life is a cellular automaton devised by mathematician John Conw
 * All other live cells die (due to underpopulation or overpopulation).
 * All other dead cells remain dead.
 
+## Libraries
+Project is made using SDL3 with SDL_Renderer context and gui "Dear ImGui"
+
 ## How to build & run
 ### Using Visual Studio
 To build and run in Visual Studio:
-1. Clone ```git clone https://github.com/traktoors/Conways-Game-of-Life.git``` -> Open GameOfLife.sln -> Press <kbd>F5<\kbd>
+1. Clone ```git clone https://github.com/traktoors/Conways-Game-of-Life.git``` -> Open GameOfLife.sln -> Press <kbd>F5</kbd>
 
 ### Using Make
 ```
